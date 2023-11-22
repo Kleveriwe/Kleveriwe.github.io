@@ -11,9 +11,10 @@ code {
   font-family: 'Roboto', serif;
 }
 html{
-  background-color: #282c34;
-  background-image: url(./static/bkg.jpg);
+  background-image: linear-gradient(black, black),url(./static/bkg.jpg);
   background-repeat: no-repeat;
+  background-blend-mode: saturation;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }

@@ -30,7 +30,7 @@ function App() {
     return (
         <div className="App">
             <h1>{format(counter)}</h1>
-            <p>Сколько времени прошло</p>
+            <p>Сколько времени ты потратил</p>
         </div>
     );
 }
